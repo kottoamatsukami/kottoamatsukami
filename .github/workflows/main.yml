@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Jobs to update datas
+    name: Update
     runs-on: ubuntu-latest
     steps:
       # Snake Animation
@@ -15,4 +15,6 @@ jobs:
         id: snake-gif
         with:
           github_user_name: Om1cr0ne
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          svg_out_path: 
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
