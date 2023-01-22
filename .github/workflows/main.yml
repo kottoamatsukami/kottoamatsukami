@@ -1,20 +1,17 @@
-name: Generate Datas
-
+name: Metrics
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-  workflow_dispatch:
-
+  push:
+    branches:
+      - main
 jobs:
-  build:
-    name: Update
+  github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      - uses: lowlighter/metrics@latest
         with:
-          github_user_name: Om1cr0ne
-          svg_out_path: 
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
