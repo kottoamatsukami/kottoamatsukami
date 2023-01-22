@@ -23,7 +23,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Hi+there!)](https://git.io/typing-svg)
 
-[![codewars](https://www.codewars.com/users/Om1cr0ne/badges/large)](https://www.codewars.com/users/Kottoamatsukami)   
+[![codewars](https://www.codewars.com/users/Kottoamatsukami/badges/large)](https://www.codewars.com/users/Kottoamatsukami)   
 <h1>
   <img src="https://seeklogo.com/images/P/pytorch-logo-84F95D0AF5-seeklogo.com.png", width=50>
   <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png", width=50>
