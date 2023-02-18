@@ -33,7 +33,5 @@
 ![Metrics](/github-metrics.svg)
 
 
-### My stats :hugs:
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Om1cr0ne&theme=dark&background=000000)](https://git.io/streak-stats)
-<br>
-
+![Metrics](/achievements.svg)
+![Metrics](/commit-calendar.svg)
